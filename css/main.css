@@ -1,0 +1,88 @@
+.banner {
+    animation: banner 25s infinite linear;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/21/13/54/blur-1845534_960_720.jpg');
+}
+
+.img {
+    height: 200px;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 22, 40, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    font-style: initial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner-content p {
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1:hover {
+    opacity: 0.5;
+}
+
+p:hover {
+    opacity: 0.5;
+}
+
+@keyframes banner {
+    1% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/21/13/54/blur-1845534_960_720.jpg');
+    }
+    20% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/21/13/54/blur-1845534_960_720.jpg');
+    }
+    21% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/29/13/42/light-bulbs-1869945_960_720.jpg');
+    }
+    40% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/29/13/42/light-bulbs-1869945_960_720.jpg');
+    }
+    41% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg');
+    }
+    60% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg');
+    }
+    61% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/21/17/50/battle-1846807_960_720.jpg');
+    }
+    80% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/21/17/50/battle-1846807_960_720.jpg');
+    }
+    81% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/19/13/01/audio-1839162_960_720.jpg');
+    }
+    100% {
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/19/13/01/audio-1839162_960_720.jpg');
+    }
+}
